@@ -3,16 +3,26 @@ galaxy_info:
   description: motd-splash -- a colorful MOTD for your CentOS or RHEL system
   company: GoKEV
 
+  license: license GPLV3
   min_ansible_version: 2.0
 
   galaxy_tags:
     - GoKEV
     - motd
     - centos
-    - red hat
+    - red-hat
+    - redhat
     - rhel
     - logo
     - splash
     - pretty
+
+  platforms:
+  - name: EL
+    versions:
+    - all
+    - 5
+    - 6
+    - 7
 
 dependencies: []
