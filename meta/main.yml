@@ -1,0 +1,18 @@
+galaxy_info:
+  author: Kevin Holmes
+  description: motd-splash -- a colorful MOTD for your CentOS or RHEL system
+  company: GoKEV
+
+  min_ansible_version: 2.0
+
+  galaxy_tags:
+    - GoKEV
+    - motd
+    - centos
+    - red hat
+    - rhel
+    - logo
+    - splash
+    - pretty
+
+dependencies: []
