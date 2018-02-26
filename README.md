@@ -34,16 +34,16 @@ Screen Shots of End Results
 ------------------
 
 /etc/motd for RHEL systems
-![motd_rhel](https://raw.githubusercontent.com/GoKEV/motd-splash/tree/master/files/motd_rhel.png)
+![motd_rhel](files/motd_rhel.png?raw=true "/etc/motd_rhel")
 
 /etc/motd for CentOS systems
-![motd_centos](https://raw.githubusercontent.com/GoKEV/motd-splash/tree/master/files/motd_centos.png)
+![motd_centos](files/motd_centos.png?raw=true "/etc/motd_centos")
 
 /etc/motd for systems that have no OS-specific MOTD template
-![motd_generic](https://raw.githubusercontent.com/GoKEV/motd-splash/tree/master/files/motd_generic.png)
+![motd_generic](files/motd_generic.png?raw=true "/etc/motd_generic")
 
 /etc/issue pre-login warning
-![issue](https://raw.githubusercontent.com/GoKEV/motd-splash/tree/master/files/issue.png)
+![issue](files/issue.png?raw=true "/etc/issue")
 
 
 
