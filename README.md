@@ -28,3 +28,24 @@ Author Information
 
 Kevin Holmes :: kev@GoKEV.com
 
+
+
+Screen Shots of End Results
+------------------
+
+/etc/motd for RHEL systems
+![motd_rhel](https://github.com/GoKEV/motd-splash/tree/master/motd_rhel.png)
+
+/etc/motd for CentOS systems
+![motd_centos](https://github.com/GoKEV/motd-splash/tree/master/motd_centos.png)
+
+/etc/motd for systems that have no OS-specific MOTD template
+![motd_generic](https://github.com/GoKEV/motd-splash/tree/master/motd_generic.png)
+
+/etc/issue pre-login warning
+![issue](https://github.com/GoKEV/motd-splash/tree/master/issue.png)
+
+
+
+
+
