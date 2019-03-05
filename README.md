@@ -1,20 +1,42 @@
-motd-splash
-=========
+k[![GoKEV](http://GoKEV.com/GoKEV200.png)](http://GoKEV.com/)
+
+<div style="position: absolute; top: 40px; left: 200px;">
+
+# motd-splash
 
 This role lays down a template for /etc/issue (pre-login warning) as well as /etc-motd (post login splash).
 
-This includes two colorful ASCII text logos for CentOS or Red Hat.  The role will conditionally determine CentOS or RHEL logo, based on Ansible fact gathering of the target OS.  If the target system is neither, a generic and boring template is used.  All template options lay down some basic information about the target system for login MOTD display.
+This includes two colorful ASCII text logos for CentOS or Red Hat. The role will conditionally determine CentOS or RHEL logo, based on Ansible fact gathering of the target OS. If the target system is neither, a generic and boring template is used. All template options lay down some basic information about the target system for login MOTD display.
 
+Within Ansible Tower, you can launch the playbook found here:  https://github.com/GoKEV/GoKEV-dummy-playbook.git
 
+## Here's an example of how you could launch this role:
+<pre>
+ansible-playbook motd-splash.yml
+</pre>
 
-Example Playbook
-----------------
+## Example Playbook called motd-splash.yml:
 
-    - hosts: servers
-      roles:
-         - motd-splash
+<pre>
+---
+- name: Run this MOTD splash role
+  hosts: localhost
+  gather_facts: no
 
+  roles:
+    - GoKEV.motd-splash
 
+</pre>
+
+## With a requirements.yml that looks as such:
+
+<pre>
+---
+- name: GoKEV.motd-splash
+  version: master
+  src: https://github.com/GoKEV/motd-splash.git
+
+</pre>
 
 License
 -------
@@ -46,6 +68,5 @@ Screen Shots of End Results
 ![issue](files/issue.png?raw=true "/etc/issue")
 
 
-
-
+This project was created in 2018 by [Kevin Holmes](http://GoKEV.com/).
 
