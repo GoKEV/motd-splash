@@ -1,4 +1,4 @@
-k[![GoKEV](http://GoKEV.com/GoKEV200.png)](http://GoKEV.com/)
+[![GoKEV](http://GoKEV.com/GoKEV200.png)](http://GoKEV.com/)
 
 <div style="position: absolute; top: 40px; left: 200px;">
 
@@ -8,7 +8,6 @@ This role lays down a template for /etc/issue (pre-login warning) as well as /et
 
 This includes two colorful ASCII text logos for CentOS or Red Hat. The role will conditionally determine CentOS or RHEL logo, based on Ansible fact gathering of the target OS. If the target system is neither, a generic and boring template is used. All template options lay down some basic information about the target system for login MOTD display.
 
-Within Ansible Tower, you can launch the playbook found here:  https://github.com/GoKEV/GoKEV-dummy-playbook.git
 
 ## Here's an example of how you could launch this role:
 <pre>
