@@ -55,7 +55,7 @@ Screen Shots of End Results
 ------------------
 
 /etc/motd for RHEL systems
-![motd_rhel](files/motd_rhel.png?raw=true "/etc/motd_rhel")
+![motd_rhel](files/motd_redhat.png?raw=true "/etc/motd_redhat")
 
 /etc/motd for CentOS systems
 ![motd_centos](files/motd_centos.png?raw=true "/etc/motd_centos")
@@ -68,4 +68,6 @@ Screen Shots of End Results
 
 
 This project was created in 2018 by [Kevin Holmes](http://GoKEV.com/).
+
+- Update 2019-05-10 :: After the new Red Hat logo was released at Red Hat Summit 2019, the shadowman style logo was replaced by the new RHT logo
 
