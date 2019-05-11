@@ -7,10 +7,9 @@ galaxy_info:
   min_ansible_version: 2.0
 
   galaxy_tags:
-    - GoKEV
+    - gokev
     - motd
     - centos
-    - red-hat
     - redhat
     - rhel
     - logo
