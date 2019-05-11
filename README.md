@@ -66,6 +66,9 @@ Screen Shots of End Results
 /etc/motd for systems that have no OS-specific MOTD template
 ![motd_generic](files/motd_generic.png?raw=true "/etc/motd_generic")
 
+/etc/motd with the legacy Shadowman Red Hat logo (must be declared manually in vars -- see README.md playbook example)
+![motd_generic](files/motd_shadowman.png?raw=true "/etc/motd_shadowman")
+
 /etc/issue pre-login warning
 ![issue](files/issue.png?raw=true "/etc/issue")
 
