@@ -20,7 +20,14 @@ ansible-playbook motd-splash.yml
 ---
 - name: Run this MOTD splash role
   hosts: localhost
-  gather_facts: no
+
+# optionally force a specific motd (if you run CentOS but want to show some Red Hat logo love instead!)
+#  vars:
+#  - motd_template_file: templates/motd_redhat
+
+  roles:
+  - motd-splash
+
 
   roles:
     - GoKEV.motd-splash

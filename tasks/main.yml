@@ -2,17 +2,17 @@
 - name: Define the custom MOTD file if this is a CentOS system
   set_fact:
     motd_template_file: templates/motd_centos
-  when: ansible_distribution == "CentOS"
+  when: ansible_distribution == "CentOS" and motd_template_file is undefined
 
 - name: Define the custom MOTD file if this is a RHEL system
   set_fact:
     motd_template_file: templates/motd_redhat
-  when: ansible_distribution == "RedHat"
+  when: ansible_distribution == "RedHat" and motd_template_file is undefined
 
 - name: Define the MOTD file for any non-RHEL and non-CENT machine
   set_fact:
     motd_template_file: templates/motd_generic
-  when: ansible_distribution != "CentOS" and ansible_distribution != "RedHat"
+  when: ansible_distribution != "CentOS" and ansible_distribution != "RedHat" and motd_template_file is undefined
 
 - name: motd template
   template:
