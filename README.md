@@ -26,10 +26,6 @@ ansible-playbook motd-splash.yml
 #  - motd_template_file: templates/motd_redhat
 
   roles:
-  - motd-splash
-
-
-  roles:
     - GoKEV.motd-splash
 
 </pre>
