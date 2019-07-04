@@ -70,7 +70,7 @@ Screen Shots of End Results
 ![motd_generic](files/motd_shadowman.png?raw=true "/etc/motd_shadowman")
 
 /etc/motd with the GoKEV in ASCII glory (must be declared manually in vars -- see README.md playbook example)
-![motd_generic](files/motd_gokev.png?raw=true "/etc/motd_gokev")
+![motd_generic](files/motd_gokev.gif?raw=true "/etc/motd_gokev")
 
 /etc/issue pre-login warning
 ![issue](files/issue.png?raw=true "/etc/issue")
