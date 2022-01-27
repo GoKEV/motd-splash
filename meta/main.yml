@@ -1,6 +1,6 @@
 galaxy_info:
   author: Kevin Holmes
-  description: motd-splash -- a colorful MOTD for your CentOS or RHEL system
+  description: motd-splash -- a colorful MOTD for your RHEL system
   company: GoKEV
 
   license: license GPLV3
