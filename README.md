@@ -78,5 +78,5 @@ Screen Shots of End Results
 
 This project was created in 2018 by [Kevin Holmes](http://GoKEV.com/).
 
-- Update 2019-05-10 :: After the new Red Hat logo was released at Red Hat Summit 2019, the shadowman style logo was replaced by the new RHT logo
+- Update 2019-05-10 :: After the new Red Hat logo was released at Red Hat Summit 2019, the shadowman style logo was replaced by the new RHT logo as default
 
